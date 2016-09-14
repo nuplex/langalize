@@ -1,0 +1,5 @@
+<form (ngSubmit)="add()" #appAdd="ngForm">
+  <input id="add-input" type="text" name="word" placeholder="Word or Phrase" required
+    [(ngModel)]="model.text" #word="ngModel">
+  <button id="add-submit" type="submit">+</button>
+</form>

@@ -1,0 +1,12 @@
+<div *ngFor="let word of words" id="wordarea">
+  <span>
+    <div class="wordbox">
+      <span>{{word.text}}</span>
+    </div>
+    <div class="answerbox">
+      <span>{{word.answer}}</span>
+    </div>
+    <span class="delete" (click)="del(word.text)">X</span>
+  </span>
+  <br/>
+</div>

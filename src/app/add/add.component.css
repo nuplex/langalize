@@ -1,0 +1,21 @@
+#add-input{
+  border-radius: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  border-style: solid;
+  border-width: 1px;
+  width: 25.2em;
+  font-size: 13pt;
+  border-color: #82b2e9;
+  text-align: center;
+  color: #5a7ba1;
+}
+
+#add-submit{
+  border-radius: 0.2em;
+  border-style: none;
+  font-size: 14pt;
+  background-color: #99b9ff;
+  color:white;
+  cursor: pointer;
+}

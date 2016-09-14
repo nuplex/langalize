@@ -1,0 +1,124 @@
+.wordbox{
+  background-color: #e98474;
+  border-radius: 0.2em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  text-align: center;
+  font-size: 14pt;
+  font-weight: bold;
+  width: 24.9em;
+  color: white;
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+  margin-left: 0.21em;
+  display:inline-block;
+  word-wrap: normal;
+  cursor: pointer;
+}
+
+.wordbox:hover{
+  background-color: #c56663;
+}
+
+.wordbox:active{
+  background-color: #9e524f;
+}
+
+.solve-answer{
+  background-color: white;
+  border-color: #82b2e9;
+  border-radius: 0.2em;
+  border-style: solid;
+  border-width: 2px;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  text-align: center;
+  font-size: 13pt;
+  width: 17em;
+  color: #5a7ba1;
+  margin-top: 0.15em;
+  margin-left: 0.21em;
+}
+
+.solve-submit{
+  background-color: #82b2e9;
+  border-radius: 0.2em;
+  border-style: none;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  color: white;
+  margin-top: 0.15em;
+  margin-left: 0.3em;
+  cursor: pointer;
+}
+
+.solved-submit:hover{
+  background-color: #6d99ce;
+}
+
+.solved-submit:active{
+  background-color: #496282;
+}
+
+.solve-naver{
+  background-color: #2DB400;
+  border-radius: 0.1em;
+  border-style: none;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  text-align: center;
+  font-size: 12pt;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: white;
+  margin-top: 0.15em;
+  margin-left: 0.105em;
+  cursor: pointer;
+}
+
+.solve-naver:hover{
+  background-color: #56C82C;
+}
+
+.solve-naver:active{
+  background-color: #45992C;
+}
+
+.delete{
+  background-color: #e9a582;
+  border-radius: 0.2em;
+  border-style: none;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  color: white;
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+  margin-left: 0.105em;
+  display:inline-block;
+  word-wrap: normal;
+  cursor: pointer;
+}
+
+.delete:hover{
+  background-color: #c56663;
+}
+
+.delete:active{
+  background-color: #9e524f;
+}

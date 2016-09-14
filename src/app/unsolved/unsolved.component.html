@@ -1,0 +1,16 @@
+<div *ngFor="let word of words">
+  <div class="wordbox" (click)="toggleSolve(word)">
+    <span>{{word}}</span>
+  </div>
+  <form *ngIf="currSolved === word" (ngSubmit)="solve()" #unsolved="ngForm">
+    <span>
+      <input class="solve-answer" tpye="text" name="answer" placeholder="answer" required
+             [(ngModel)]="model.answer" #answer="ngModel">
+      <button class="solve-submit" type="submit">Solve!</button>
+      <button class="solve-naver" (click)="searchNaver(word)" type="button">N</button>
+      <button class="delete" (click)="del(word)" type="button">Delete</button>
+    </span>
+  </form>
+  <br/>
+</div>
+

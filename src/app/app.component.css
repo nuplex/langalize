@@ -1,0 +1,67 @@
+.main-faux-navbar-button{
+  text-decoration: none;
+  border-radius: 0.2em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-align: center;
+  font-size: 16pt;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  width: 6em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+}
+
+.unsolved{
+  background-color: #e98474;
+}
+
+.unsolved:hover{
+  background-color: #c56663;
+}
+
+.unsolved:active{
+  background-color: #9e524f;
+}
+
+.solved{
+  background-color: #82b2e9;
+}
+
+.solved:hover{
+  background-color: #6d99ce;
+}
+
+.solved:active{
+  background-color: #496282;
+}
+
+#add-button{
+  background-color: #a1c688;
+}
+
+#add-button:hover{
+  background-color: #8eae77;
+}
+
+#add-button:active{
+  background-color: #758f62;
+}
+
+
+#main-title{
+  font-size: 36pt;
+  color: #e9a582;
+}
+
+#main-title-container{
+  margin-bottom: 1em;
+}
+
+#main-faux-navbar{
+  margin-bottom: 1em;
+}
